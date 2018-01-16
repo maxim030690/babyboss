@@ -43,12 +43,7 @@
                                 </div>
                             </div>
                             <div class="good_text_opis">
-                                Лучшие подгузники, которые обеспечивают защиту кожи «5 звезд» и дарят непревзойденную мягкость шелка. Это первые и единственные подгузники с впитывающими каналами, обеспечивающими до 12 часов сухости.
-                            </div>
-                            <div class="good_filters">
-                                <div class="good_filt_item">Весовая группа: 9-16 кг.</div>
-                                <div class="good_filt_item">Пол: девочкам, мальчикам</div>
-                                <div class="good_filt_item">Страна производитель: США</div>
+                                <?php echo $description; ?>
                             </div>
                             <div class="good_item_price_wr">
                                 <div class="row">
@@ -125,7 +120,7 @@
             </div>
         </div>
     </div>
-    <div class="rev2 rev_inside1" style="background-image: url('http://pampers.de/catalog/view/theme/sonmax/image/rev_img_2.jpg');">
+    <div class="rev2 rev_inside1" style="background-image: url('/catalog/view/theme/sonmax/image/rev_img_2.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
@@ -155,7 +150,11 @@
                 <div class="rev2_2text">
                     <div class="row">
                         <div class="col-sm-10 col-sm-offset-1">
-                            <?php echo $description; ?>
+                            <p>Здоровый и крепкий с Baby Boss
+
+                            Здоровый и крепкий сон малютке дарит продукция знаменитого бренда Baby Boss. В его ассортименте - подгузники для малышей всех возрастов и размеров.
+
+                            Для деток весом 9-16 кг прекрасно подойдет серия Active Baby Maxi Plus 4+. Экономные мамы выбираются увеличенную «джамбо» упаковку на 62 подгузника. Каждый обеспечит кроху сухостью и неповторимым комфортом до 12 часов. Один подгузник убережет малыша от досадных неприятностей на протяжении всей ночи.</p>
                         </div>
                     </div>
                 </div>
