@@ -1,3 +1,4 @@
+
 <?php
 class ControllerCommonCart extends Controller {
 	public function index() {
