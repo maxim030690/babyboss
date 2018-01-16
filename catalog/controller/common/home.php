@@ -145,6 +145,7 @@ class ControllerCommonHome extends Controller {
 					$rating = false;
 				}
 				//feedbacks goods all
+				//my custom field
 				$data['feedbacks_info'] = $this->model_catalog_ourfeedbacks->getAllFeedbacks();
 				
 				$data['products'][] = array(
