@@ -144,7 +144,7 @@ class ControllerCommonHome extends Controller {
 				} else {
 					$rating = false;
 				}
-				//feedbacks goods
+				//feedbacks goods all
 				$data['feedbacks_info'] = $this->model_catalog_ourfeedbacks->getAllFeedbacks();
 				
 				$data['products'][] = array(
