@@ -144,6 +144,7 @@ class ControllerCommonHome extends Controller {
 				} else {
 					$rating = false;
 				}
+				//feedbacks goods
 				$data['feedbacks_info'] = $this->model_catalog_ourfeedbacks->getAllFeedbacks();
 				
 				$data['products'][] = array(
@@ -175,7 +176,7 @@ class ControllerCommonHome extends Controller {
 			$review_total = $this->model_catalog_ourfeedbacks->getTotalReviewsByProductId();
 
 			$feedbacks_info = $this->model_catalog_ourfeedbacks->getFeedbackById( ($page - 1) * 5, 5);
-			
+
 			foreach ($feedbacks_info as $feedback) {
 				$data['feedbacks_info'][] = array(
 					'name'     => $feedback['name'],
