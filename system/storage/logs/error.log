@@ -1422,3 +1422,19 @@
 2018-01-15 19:13:12 - PHP Notice:  Undefined variable: products in D:\OpenServer\domains\pampers\catalog\view\theme\sonmax\template\information\about.tpl on line 46
 2018-01-15 19:13:12 - PHP Notice:  Undefined variable: products in D:\OpenServer\domains\pampers\catalog\view\theme\sonmax\template\information\about.tpl on line 55
 2018-01-15 19:13:12 - PHP Warning:  Invalid argument supplied for foreach() in D:\OpenServer\domains\pampers\catalog\view\theme\sonmax\template\information\about.tpl on line 55
+2018-01-17 14:23:53 - PHP Notice:  Array to string conversion in D:\OpenServer\domains\pampers\catalog\view\theme\sonmax\template\extension\module\filter.tpl on line 12
+2018-01-17 14:23:53 - PHP Notice:  Array to string conversion in D:\OpenServer\domains\pampers\catalog\view\theme\sonmax\template\extension\module\filter.tpl on line 12
+2018-01-17 14:23:53 - PHP Notice:  Array to string conversion in D:\OpenServer\domains\pampers\catalog\view\theme\sonmax\template\extension\module\filter.tpl on line 12
+2018-01-17 15:19:08 - PHP Notice:  Array to string conversion in D:\OpenServer\domains\pampers\catalog\view\theme\sonmax\template\extension\module\filter.tpl on line 4
+2018-01-17 15:33:07 - PHP Notice:  Undefined index: href in D:\OpenServer\domains\pampers\catalog\view\theme\sonmax\template\extension\module\filter.tpl on line 13
+2018-01-17 15:33:07 - PHP Notice:  Undefined index: href in D:\OpenServer\domains\pampers\catalog\view\theme\sonmax\template\extension\module\filter.tpl on line 17
+2018-01-17 15:33:07 - PHP Notice:  Undefined index: href in D:\OpenServer\domains\pampers\catalog\view\theme\sonmax\template\extension\module\filter.tpl on line 20
+2018-01-17 15:33:07 - PHP Notice:  Undefined index: href in D:\OpenServer\domains\pampers\catalog\view\theme\sonmax\template\extension\module\filter.tpl on line 13
+2018-01-17 15:33:07 - PHP Notice:  Undefined index: href in D:\OpenServer\domains\pampers\catalog\view\theme\sonmax\template\extension\module\filter.tpl on line 17
+2018-01-17 15:33:07 - PHP Notice:  Undefined index: href in D:\OpenServer\domains\pampers\catalog\view\theme\sonmax\template\extension\module\filter.tpl on line 20
+2018-01-17 15:33:07 - PHP Notice:  Undefined index: href in D:\OpenServer\domains\pampers\catalog\view\theme\sonmax\template\extension\module\filter.tpl on line 13
+2018-01-17 15:33:07 - PHP Notice:  Undefined index: href in D:\OpenServer\domains\pampers\catalog\view\theme\sonmax\template\extension\module\filter.tpl on line 17
+2018-01-17 15:33:07 - PHP Notice:  Undefined index: href in D:\OpenServer\domains\pampers\catalog\view\theme\sonmax\template\extension\module\filter.tpl on line 20
+2018-01-17 15:47:50 - PHP Notice:  Undefined offset: 2 in D:\OpenServer\domains\pampers\catalog\view\theme\sonmax\template\extension\module\filter.tpl on line 14
+2018-01-17 15:47:50 - PHP Notice:  Undefined offset: 2 in D:\OpenServer\domains\pampers\catalog\view\theme\sonmax\template\extension\module\filter.tpl on line 14
+2018-01-17 15:47:50 - PHP Notice:  Undefined offset: 2 in D:\OpenServer\domains\pampers\catalog\view\theme\sonmax\template\extension\module\filter.tpl on line 14

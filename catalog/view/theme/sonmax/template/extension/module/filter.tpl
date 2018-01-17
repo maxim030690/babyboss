@@ -1,6 +1,7 @@
 <div class="row">
 <div class="rate_box_wr col-sm-10 col-sm-offset-1">
-<?php  
+<?php
+  $link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
   if($_SERVER['REQUEST_URI'] == '/index.php?route=product/category&path=27'){
     echo '<style>.filters-none{display:none;}</style>';
   }
@@ -9,7 +10,7 @@
 <div class="top_check">
       <?php if ($categories) { ?>
           <label><input type="radio" name="checkrad"><a href="/index.php?route=product/category&path=20"><span>Все</span></a></label>
-        <?php foreach ($categories as $category) { ?>
+        <?php foreach ($categories as $category) {?>
           <label><input type="radio" name="checkrad"><a href="<?php echo $category['href']; ?>"><span><?php echo $category["name"]; ?></span></a></label>
         <?php } ?>
       <?php } ?>
@@ -65,6 +66,14 @@
 </div>
 </div>
 <script type="text/javascript">
+
+  $('.top_check a').each(function(){
+      if($(this).attr('href') == '<?php echo $link;?>'){
+      $(this).parents('label').addClass('active');
+    }
+  });
+  
+
 $('#button-filter').on('click', function() {
 	filter = [];
 
